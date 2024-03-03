@@ -22,8 +22,8 @@
     }
 
     .content-background {
-        width: 49%;
-        height: 90%;
+        width: 50%;
+        height: 88%;
         background-color: hsl(0, 0%, 100%);
         border-radius: 25px;
         display: flex;
