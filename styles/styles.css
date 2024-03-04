@@ -116,7 +116,8 @@
 
     .ingredients-list {
         margin-left: 3.4%;
-        line-height: 25px;
+        line-height: 26px;
+        width: 72%;
         margin-top: 3%;
     }
 
@@ -149,10 +150,11 @@
         font-family: 'Young Serif', serif;
         font-weight: 400;
         color: hsl(14, 45%, 36%);
+        font-size: 28px;
     }
 
     .instructions-list {
-        margin-top: 2%;
+        margin-top: 2.5%;
         margin-left: 3.4%;
     }
 
@@ -169,7 +171,7 @@
         font-size: 16px;
         margin-bottom: 1%;
         line-height: 25px;
-        padding-left: 2%;
+        padding-left: 3%;
     }
 
     .nutrition {
@@ -180,6 +182,7 @@
         font-family: 'Young Serif', serif;
         font-weight: 400;
         color: hsl(14, 45%, 36%);
+        font-size: 28px;
     }
 
     .nutrition > p {
