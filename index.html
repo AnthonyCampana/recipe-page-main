@@ -7,7 +7,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles/styles.css">
   <title>Frontend Mentor | Recipe page</title>
-
   <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -45,7 +44,7 @@
             <li> <p> Salt, to taste </p> </li>
             <li> <p> Pepper, to taste </p> </li>
             <li> <p> 1 tablespoon of butter or oil </p> </li>
-            <li> <p> Optional fillings: cheese, diced vegetables, cooked meats, herbs </p> </li>
+            <li> <p id="multiple-line-item"> Optional fillings: cheese, diced vegetables, cooked meats, herbs </p> </li>
           </ul>
           <hr>
         </div>
@@ -83,24 +82,26 @@
         <div class="nutrition">
           <h2> Nutrition </h2>
           <p> The table below shows nutritional values per serving without the additional fillings. </p>
-          <div class="nutrition-list">
-            <p class="nutrition-category">Calories</p>
-            <p class="nutrition-metric">277kcal</p>
-          </div>
-          <hr class="nutrition-lines">
-          <div class="nutrition-list">
-            <p class="nutrition-category">Carbs</p>
-            <p class="nutrition-metric">0g</p>
-          </div>
-          <hr class="nutrition-lines" >
-          <div class="nutrition-list">
-            <p class="nutrition-category">Protein</p>
-            <p class="nutrition-metric">20g</p>
-          </div>
-          <hr class="nutrition-lines">
-          <div class="nutrition-list">
-            <p class="nutrition-category">Fat</p>
-            <p class="nutrition-metric">22g</p>
+          <div class="nutrition-list-container">
+            <div class="nutrition-list">
+              <p class="nutrition-category">Calories</p>
+              <p class="nutrition-metric">277kcal</p>
+            </div>
+            <hr class="nutrition-lines">
+            <div class="nutrition-list">
+              <p class="nutrition-category">Carbs</p>
+              <p class="nutrition-metric">0g</p>
+            </div>
+            <hr class="nutrition-lines">
+            <div class="nutrition-list">
+              <p class="nutrition-category">Protein</p>
+              <p class="nutrition-metric">20g</p>
+            </div>
+            <hr class="nutrition-lines">
+            <div class="nutrition-list">
+              <p class="nutrition-category">Fat</p>
+              <p class="nutrition-metric">22g</p>
+            </div>
           </div>
         </div>
 
@@ -110,7 +111,7 @@
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="http://anthonycampana.pythonanywhere.com">Anthony C</a>.
     </div>
   </footer>
 </body>
